@@ -31,7 +31,7 @@ module.exports = {
         ErrorModal: 'src/components/ErrorModal.jsx',
       About:    'src/components/About.jsx',
       Examples: 'src/components/Examples.jsx',
-      applicationStyles:  'src/styles/app.css',
+      applicationStyles:  'src/styles/app.scss',
     },
     extensions: ['', '.js', '.jsx']
   },
