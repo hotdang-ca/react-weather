@@ -5,7 +5,11 @@ var Main = ({children}) => {
   return (
     <div>
       <Nav />
-      {children}
+      <div className="row">
+        <div className="columns medium-6 large-4 small-centered">
+          {children}
+        </div>
+      </div>
     </div>
   );
 };
